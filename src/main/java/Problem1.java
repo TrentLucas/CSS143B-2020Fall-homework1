@@ -5,9 +5,8 @@ public class Problem1 {
         // Add your solution
         int searchValue = 7; //Value to look for
         int endValue = -1; //Output
-        int[] list = {1, 3, 6, 8, 9};
-        for (int i = list.length - 1; i > 0; i--) {
-            if (searchValue == list[i]) {
+        for (int i = data.length - 1; i >= 0; i--) {
+            if (target == data[i]) {
                 endValue = i;
             }
         }

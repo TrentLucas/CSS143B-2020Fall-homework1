@@ -17,6 +17,6 @@ public class Problem2 {
                 }
             }
         }
-        System.out.println(Arrays.toString(data));
+        //System.out.println(Arrays.toString(data));
     }
 }
